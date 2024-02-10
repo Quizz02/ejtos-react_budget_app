@@ -16,10 +16,10 @@ const Dropdown = () => {
     return (
         <>
             <div class="dropdown">
-                <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ backgroundColor: '#a5d6a7' }}>
                     Currency ({newCurrency})
                 </button>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu" style={{ backgroundColor: '#a5d6a7' }}>
                     <li><button class="dropdown-item" value={"$"} onClick={handleCurrencyChange}>$ Dollar</button></li>
                     <li><button class="dropdown-item" value={"£"} onClick={handleCurrencyChange}>£ Pound</button></li>
                     <li><button class="dropdown-item" value={"€"} onClick={handleCurrencyChange}>€ Euro</button></li>
